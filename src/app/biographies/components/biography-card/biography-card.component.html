@@ -1,0 +1,23 @@
+<div class="biographies-container">
+
+
+  <mat-card *ngFor="let bio of biographies" class="bio-card">
+    <mat-card-header>
+      <mat-card-title>{{ bio.Title }}</mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content>
+      <p>{{ bio.Biography }}</p>
+    </mat-card-content>
+
+    <mat-card-footer>
+      <div class="footer-content">
+        <p><strong>Id:</strong> {{ bio.Id }}</p>
+        <p><strong>Provider:</strong> {{ bio.Provider }}</p>
+        <p><strong>Date Created:</strong> {{ bio.DateCreated }}</p>
+        <p><strong>Last Modified:</strong> {{ bio.LastModified }}</p>
+        <p><strong>Publication Date:</strong> {{ bio.PublicationDate }}</p>
+      </div>
+    </mat-card-footer>
+  </mat-card>
+</div>

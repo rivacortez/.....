@@ -1,0 +1,11 @@
+.mat-toolbar{
+  padding: 30px;
+  background-color: mediumspringgreen;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.spacer {
+  margin-left: auto;
+}

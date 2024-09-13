@@ -1,0 +1,13 @@
+.biographies-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.bio-card {
+  width: 300px;
+}
+
+.footer-content p {
+  margin: 4px 0;
+}
